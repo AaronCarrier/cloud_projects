@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:12000 
+      name: config-client # 对应 {application} 部分
+      profile: http://git.oschina.net/didispace/SpringCloud-Learning/
+      label: spring_cloud_in_action/config-repo
